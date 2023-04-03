@@ -1,0 +1,41 @@
+.posCabecalho {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.logo {
+    width: 10rem;
+    margin-left: 3.5rem;
+}
+
+.listaMenu {
+    text-align: center;
+}
+
+.menuItem {
+    text-decoration: none;
+    margin: 0 4rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--cor-vermelho);
+}
+
+.botao {
+    align-items: center;
+    text-align: center;
+}
+
+.matricula {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 5px solid var(--cor-vermelho);
+    background-color: var(--cor-amarelo);
+    color: var(--cor-vermelho);
+    border-radius: 0.7rem;
+    padding: 0.3rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+}

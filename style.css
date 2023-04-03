@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family= Edu+NSW+ACT+Foundation & display =swap');
+@import url(styles/header.css);
+@import url(styles/poscabecalho.css);
+@import url(styles/beneficios.css);
 
 :root {
     --fonte-textos:'Edu NSW ACT Foundation', cursive;
     --cor-vermelho: #db0000;
     --cor-amarelo: #ffee00;
+    --cor-fundo: #f5f4f4;
 }
 
 * {
@@ -11,45 +15,7 @@
     padding: 0;
 }
 
-.cabeçalho {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    margin: 2rem 4rem;
-    align-items: center;
-}
-
-.logo {
-    width: 10rem;
-}
-
-.listaMenu {
-    text-align: center;
-}
-
-.menuItem {
-    text-decoration: none;
-    margin: 0 4rem;
-    font-family:var(--fonte-textos);
-    font-weight: 600;
-    font-size: 1.25rem;
-    color: var(--cor-vermelho);
-}
-
-.botao {
-    align-items: center;
-    text-align: center;
-}
-
-.matricula {
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
+body {
+    background-color: var(--cor-fundo);
     font-family: var(--fonte-textos);
-    border: 2px solid var(--cor-vermelho);
-    background-color: var(--cor-amarelo);
-    color: var(--cor-vermelho);
-    border-radius: 0.7rem;
-    padding: 0.3rem;
-    font-size: 1.15rem;
-    font-weight: 600;
 }
