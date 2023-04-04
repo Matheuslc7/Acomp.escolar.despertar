@@ -8,10 +8,10 @@
 @import url(styles/localizacao.css);
 @import url(styles/redes.css);
 @import url(styles/rodape.css);
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 :root {
-    --fonte-textos:'Alkatra', cursive;
+    --fonte-textos:'Oswald', sans-serif;
     --cor-vermelho: #db0000;
     --cor-amarelo: #ffee00;
     --cor-fundo: #f5f4f4;
