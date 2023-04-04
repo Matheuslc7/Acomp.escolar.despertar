@@ -1,0 +1,26 @@
+.meiosPagamento {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.bandeiras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.bandeirasCard {
+    width: 40%;
+}
+
+.pix {
+    width: 20%;
+    height: 20%;
+}
+
+.boleto {
+    width: 11%;
+    height: auto;
+}
