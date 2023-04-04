@@ -45,12 +45,12 @@
 .backCard-bnt {
     cursor: pointer;
     border: none;
-    transition: 90s all ease-in-out;
+    transition: .3s all ease-in-out;
 }
 
 .frontCard-bnt:hover,
 .backCard-bnt:hover {
-    transition: .3s all ease-in-out;
+    transition: 30s all ease-in-out;
     transform: translateY(-5px);
 }
 
