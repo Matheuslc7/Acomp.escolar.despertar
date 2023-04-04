@@ -1,8 +1,65 @@
-.tituloBeneficios {
+.beneficios {
+    background-color: beige;
+    padding: 1rem 0 2.2rem 0;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.titulo {
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    margin: 3rem 0;
     color: var(--cor-amarelo);
-    text-shadow: 0.1em 0.1em 0.2em black
+    text-shadow: 0.1em 0.1em 0.2em var(--cor-vermelho);
+    margin-bottom: .5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:  30% 30% 30%;
+    justify-content: center;
+    height: 28vh;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+.topico {
+    transition: transform 1s;
+    transform: translateX(0) scale(0.8);
+}
+
+.topico:hover,
+.topico:focus {
+    transform: translateX(10px) scale(1.1);
+}
+
+.fotoTopico {
+    max-width: 8rem;
+    max-height: 8rem;
+    border-radius: .5rem;
+}
+
+.tituloTopico1 {
+    text-align: center;
+    margin-top: 1rem;
+    text-shadow: 0.1em 0.1em 0.15em var(--cor-amarelo);
+    color: var(--cor-vermelho);
+    font-size: .8rem;
+}
+
+.tituloTopico2 {
+    text-align: center;
+    margin-top: 1rem;
+    text-shadow: 0.1em 0.1em 0.2em var(--cor-amarelo);
+    color: var(--cor-vermelho);
+    font-size: .8rem;
+}
+
+.tituloTopico3 {
+    text-align: center;
+    margin-top: 1rem;
+    text-shadow: 0.1em 0.1em 0.2em var(--cor-amarelo);
+    color: var(--cor-vermelho);
+    font-size: .8rem;
 }
