@@ -2,12 +2,20 @@
 @import url(styles/header.css);
 @import url(styles/poscabecalho.css);
 @import url(styles/beneficios.css);
+@import url(styles/sobre.css);
+@import url(styles/extras.css);
+@import url(styles/planos.css);
+@import url(styles/pagamentos.css);
+@import url(styles/localizacao.css);
+@import url(styles/redes.css);
+@import url(styles/rodape.css);
 
 :root {
     --fonte-textos:'Edu NSW ACT Foundation', cursive;
     --cor-vermelho: #db0000;
     --cor-amarelo: #ffee00;
     --cor-fundo: #f5f4f4;
+    --cor-bege: beige;
 }
 
 * {
