@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family= Edu+NSW+ACT+Foundation & display =swap');
 @import url(styles/header.css);
 @import url(styles/poscabecalho.css);
 @import url(styles/beneficios.css);
@@ -9,6 +8,7 @@
 @import url(styles/localizacao.css);
 @import url(styles/redes.css);
 @import url(styles/rodape.css);
+@import url('https://fonts.googleapis.com/css2?family= Edu+NSW+ACT+Foundation & display =swap');
 
 :root {
     --fonte-textos:'Edu NSW ACT Foundation', cursive;
