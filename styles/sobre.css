@@ -1,0 +1,14 @@
+.sobre {
+    background-color: beige;
+    border-radius: 1rem;
+    padding: 1rem 0;
+}
+
+.textoSobre {
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.15em var(--cor-amarelo);
+    color: var(--cor-vermelho);
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    margin: .4rem 1rem;
+}
