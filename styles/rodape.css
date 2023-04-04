@@ -1,0 +1,14 @@
+.rodape {
+    background-color: var(--cor-bege);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.logoRodape {
+    width: 30%;
+}
+
+.textoRodape {
+    font-size: .6rem;
+    color: rgb(170, 170, 170);
+}
