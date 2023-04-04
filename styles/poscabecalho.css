@@ -6,8 +6,8 @@
 }
 
 .logo {
-    width: 10rem;
-    margin-left: 3.5rem;
+    width: 90%;
+    margin-left: .5rem;
 }
 
 .listaMenu {
@@ -16,10 +16,11 @@
 
 .menuItem {
     text-decoration: none;
-    margin: 0 4rem;
+    margin: 0 .4rem;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: .6rem;
     color: var(--cor-vermelho);
+    text-shadow: 0.01em 0.01em 0.15em var(--cor-amarelo)
 }
 
 .botao {
@@ -31,11 +32,11 @@
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    border: 5px solid var(--cor-vermelho);
+    border: 2px solid var(--cor-vermelho);
     background-color: var(--cor-amarelo);
     color: var(--cor-vermelho);
     border-radius: 0.7rem;
     padding: 0.3rem;
-    font-size: 1.15rem;
+    font-size: .5rem;
     font-weight: 600;
 }
