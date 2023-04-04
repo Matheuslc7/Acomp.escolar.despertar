@@ -1,0 +1,19 @@
+.localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.loc {
+    margin: 1rem 0;
+}
+
+.itenLoc {
+    text-align: center;
+    font-size: .75rem;
+    color: var(--cor-vermelho);
+    text-shadow: 0.1em 0.1em 0.2em var(--cor-amarelo);
+    margin: 0 0 1rem 0;
+}
