@@ -1,0 +1,24 @@
+.redes {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0 2rem;
+}
+
+.ancorasRede {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram {
+    text-align: center;
+    display: inline-block;
+    width: 35%;
+}
+
+.whatsapp {
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+}
